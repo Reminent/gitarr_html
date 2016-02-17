@@ -1,0 +1,67 @@
+/* Main */
+.theme{
+    background-color: #484E55 !important;
+}
+.theme p{
+    color: white !important;
+}
+.container .box{
+	margin-left: 13% !important;
+	margin-right: 13% !important; 
+}
+.footerText{
+	text-align: left !important;
+}
+footer{
+	border: 1px solid black !important;
+}
+/* End of Main */
+/* Inventory */
+
+/* End of Inventory */
+/* Book */
+
+/* End of Book */
+/* Find */
+#findHeader{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+}
+#findContainer{
+	position: relative; 
+	width: 100%;
+}
+#findContainerLeft{
+	width: 30%;
+	height: 100%;
+}
+#findContainerRight{
+	position: absolute;
+	top: 0;
+	left: 30%;
+	width: 70%;
+	height: 100%;
+}
+#shopImage{
+	width: 80%;
+}
+/* End of Find */
+/* About */
+#outerAbout{
+	position: relative;
+	width: 90%;
+	height: 90%;
+	margin-left: 5%;
+}
+#aboutContainer{
+	width: 60%;
+}
+#repairPic{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30%;
+	float: top;
+}
+/* End of About */
