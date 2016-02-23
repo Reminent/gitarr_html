@@ -1,0 +1,30 @@
+<!--
+* @author Henrik Larsson 2016-02-22
+*-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Labb3</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script src="js/directions.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/directions.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADbNmMDkoDf_MW2F9Xv3nAkU1lrrZf8F4&signed_in=true&libraries=places" async defer></script>
+</head>
+
+<body onload="initMap()">
+    <div id="mode-selector" class="controls">
+        <input type="radio" name="type" id="changemode-walking" checked="checked">
+        <label for="changemode-walking">Till fots</label>
+        <input type="radio" name="type" id="changemode-transit">
+        <label for="changemode-transit">Lokaltrafik</label>
+        <input type="radio" name="type" id="changemode-driving">
+        <label for="changemode-driving">Bil</label>
+    </div>
+    <input id="origin-input" class="controls" type="text">
+    <div id="right-panel"></div>
+    <div id="map"></div>
+</body>
+
+</html>
